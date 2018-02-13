@@ -9,7 +9,7 @@ def despliega_uno(elemento):
 
         
 def despliega_todos(ruta=datos.ruta):
-    with open(ruta, 'r') as archivo:
+    with open(ruta, 'r') as archivo:                    # Abre la ruta del archivo en modo seguro de text en modo lectura y despliega todos (uno por uno)
         contador = 0
         for alumno in archivo:
             alumno = eval(alumno)
@@ -18,6 +18,6 @@ def despliega_todos(ruta=datos.ruta):
             despliega_uno(alumno)
         
         
-def agrega_uno(elemento, ruta=datos.ruta):
-    with open(ruta, 'a') as archivo:
-        archivo.write(str(elemento) + '\n')
+def agrega_uno(elemento, ruta=datos.ruta):                            # Agrega el elemento dado de alta al archivo
+    with open(ruta, 'a') as archivo:                                  # Abrir en modo seguro el archivo en modo escritura, escribiendo al final el registro
+        archivo.writelines(str(elemento) + '\n')

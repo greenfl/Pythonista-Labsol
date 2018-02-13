@@ -18,6 +18,6 @@ def principal():
             break
     for contador in range(alumnos):
         print("\nAlumno nuevo", contador + 1)
-        archivos.agrega_uno(altas.alta())
+        archivos.agrega_uno(altas.alta())         #Agrega el registro dado de alta al archivo de texto
     archivos.despliega_todos()
     

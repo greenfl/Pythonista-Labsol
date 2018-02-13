@@ -7,8 +7,7 @@ orden = ("Nombre", "Primer Apellido", "Segundo Apellido", "Carrera", "Semestre",
          "Promedio", "Al Corriente")
 
 campos = {"Nombre": str, "Primer Apellido": str, "Segundo Apellido": str,
-         "Carrera": str, "Semestre": int, "Promedio": float,
-         "Al Corriente": bool}
+         "Carrera": str, "Semestre": int, "Promedio": float, "Al Corriente": bool}
 
 alumnos = [{"Nombre":"Eduardo", "Primer Apellido": "Sánchez",
           "Segundo Apellido": "Ramos", "Carrera": "Sistemas",

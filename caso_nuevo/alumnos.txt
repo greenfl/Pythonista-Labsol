@@ -4,3 +4,6 @@
 {"Nombre": "Emiliano", "Primer Apellido": "Rentería", "Segundo Apellido": "", "Carrera": "Administración", "Semestre": 4, "Promedio": 8.7, "Al Corriente": True}
 {"Nombre": "Patricio", "Primer Apellido": "Ayala", "Segundo Apellido": "Arriaga", "Carrera": "Sistemas", "Semestre": 5, "Promedio": 8.0, "Al Corriente": True}
 {'Nombre': 'Jaime', 'Primer Apellido': 'Sabines', 'Segundo Apellido': 'López', 'Carrera': 'Derecho', 'Semestre': 7, 'Promedio': 8.45, 'Al Corriente': True}
+{'Nombre': 'juan', 'Primer Apellido': 'pere', 'Segundo Apellido': 's', 'Carrera': 'Sistemas', 'Semestre': 3, 'Promedio': 3.2, 'Al Corriente': True}
+{'Nombre': 'pedro', 'Primer Apellido': 'a', 'Segundo Apellido': '', 'Carrera': 'Sistemas', 'Semestre': 3, 'Promedio': 9.2, 'Al Corriente': True}
+{'Nombre': 'pa', 'Primer Apellido': 'd', 'Segundo Apellido': '', 'Carrera': 'Actuar�a', 'Semestre': 3, 'Promedio': 9.1, 'Al Corriente': True}
